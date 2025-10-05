@@ -12,10 +12,10 @@ const App = () => {
       <Navigation />
 
       <Routes>
-        <Route path='/generate' element={<QRCodeGenerator />}/>
-        <Route path='/scanner' element={<QRCodeScanner />}/>
-        <Route path='/generateHistory' element={<GenerateHistory />}/>
-        <Route path='/scannerHistory' element={<ScannerHistory />}/>
+        <Route path='/QR-Code_App_REACT/generate' element={<QRCodeGenerator />}/>
+        <Route path='/QR-Code_App_REACT/scanner' element={<QRCodeScanner />}/>
+        <Route path='/QR-Code_App_REACT/generateHistory' element={<GenerateHistory />}/>
+        <Route path='/QR-Code_App_REACT/scannerHistory' element={<ScannerHistory />}/>
       </Routes>
     </>
   )
