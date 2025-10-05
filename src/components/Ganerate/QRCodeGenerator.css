@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.qr_create_form {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.result {
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: 300px;
+}
+
+.result::placeholder {
+  color: #000000;
+}
+
+
+.btn_handler {
+
+}
