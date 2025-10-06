@@ -2,7 +2,6 @@
 @import url('./components/Scanner/QRCodeScanner.css');
 @import url('./components/qrCodeHistory.css');
 :root {
-
   background-color: #424bff81;
 }
 * {

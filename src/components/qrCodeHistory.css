@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  margin-top: 100px;
+  margin: 100px 0;
 }
 .qr-code_history-list {
   display: flex;
