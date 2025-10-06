@@ -5,7 +5,7 @@ import { GENERATE_DATA } from '../../constants'
 
 
 const QRCodeGenerator = () => {
-  const [value, setValue] = useState()
+  const [value, setValue] = useState('')
   const [result, setResult] = useState('')
 
   const onClickHandler = () => {

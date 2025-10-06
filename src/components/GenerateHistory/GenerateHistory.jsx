@@ -6,8 +6,8 @@ const GenerateHistory = () => {
   
   return (
     <div className='qr-code_history'>
-      {data.map((text) => (
-        <div className='qr-code_history-list' key={text}>
+      {data.map((text, index) => (
+        <div className='qr-code_history-list' key={index}>
           <QRCodeSVG className='qr-code_history-list-item' value={text} size={250} />
           <p className='qr-code_history-list-item_text'>{text}</p>
         </div>
